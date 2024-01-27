@@ -1,0 +1,7 @@
+a=int(input())
+b=int(input())
+c=int(input())
+d=(a*100+b)*c
+e=d//100
+f=d%100
+print(e,f)
