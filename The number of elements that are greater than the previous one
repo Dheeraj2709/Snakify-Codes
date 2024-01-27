@@ -1,0 +1,10 @@
+a = []
+num = int(input())
+count=0
+while num != 0:
+    a.append(num)
+    num = int(input())
+for i in range(len(a)-1):
+    if a[i+1]>a[i]:
+        count+=1
+print(count)
