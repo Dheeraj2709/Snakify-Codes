@@ -1,0 +1,7 @@
+a=int(input())
+sum=1
+count=0
+while sum*2<=a:
+    sum=sum*2
+    count=count+1 
+print(count,sum)
