@@ -1,0 +1,7 @@
+a = []
+num = int(input())
+while num != 0:
+    a.append(num)
+    num = int(input())
+b=[i for i in a if i%2==0]
+print(len(b))
