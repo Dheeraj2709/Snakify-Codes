@@ -1,0 +1,9 @@
+a = []
+num = int(input())
+while num != 0:
+    a.append(num)
+    num = int(input())
+b = max( a)
+index = a.index(b)
+print(index+1)
+
