@@ -1,0 +1,10 @@
+a=int(input())
+b={}
+for i in range(a):
+    k,v=input().split()
+    if k in b:
+        b[k]+=int(v)
+    else:
+        b[k]=int(v)
+for k,v in sorted(b.items()):
+    print(k,v)
