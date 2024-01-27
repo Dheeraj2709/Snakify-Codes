@@ -1,0 +1,12 @@
+g = -1
+G = -1
+while 1 :
+  n = int(input())
+  if n >= g:
+    G = g 
+    g = n
+  elif n > G:
+    G = n
+  if n == 0:
+    print(G)
+    break
