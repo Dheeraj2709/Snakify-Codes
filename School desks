@@ -1,0 +1,16 @@
+a=int(input())
+b=int(input())
+c=int(input())
+if a%2==0:
+    d=a/2
+else:
+    d=(a+1)/2
+if b%2==0:
+    e=b/2
+else:
+    e=(b+1)/2
+if c%2==0:
+    f=c/2
+else:
+    f=(c+1)/2
+print(int(d+e+f))
