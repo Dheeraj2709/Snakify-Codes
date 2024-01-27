@@ -1,0 +1,3 @@
+a=int(input('enter base'))
+b=int(input('enter height'))
+print((a*b)/2)
