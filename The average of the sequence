@@ -1,0 +1,11 @@
+sum=0
+count=0
+while True:
+    a=int(input())
+    if a==0:
+        break
+    else:
+        sum=sum+a
+        count=count+1
+        sum2=sum/count
+print(sum2)
