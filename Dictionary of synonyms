@@ -1,0 +1,7 @@
+a=int(input())
+b={}
+for i in range(a):
+    c,d=input().split()
+    b[c]=d
+    b[d]=c
+print(b[input()])
