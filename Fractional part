@@ -1,0 +1,5 @@
+# b = int(input())
+a = float(input())
+c=int(a)
+d=a-c
+print(d)
