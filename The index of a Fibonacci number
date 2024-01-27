@@ -1,0 +1,8 @@
+a=int(input())
+fib = [0, 1]
+while fib[-1] < a:
+    fib.append(fib[-1] + fib[-2])
+if a in fib:
+    print(fib.index(a))
+else:
+    print(-1)
