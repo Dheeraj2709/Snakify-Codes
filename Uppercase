@@ -1,0 +1,7 @@
+def capitalize(a):
+  return a[0].upper() + a[1:]
+
+a = input()
+b = a.split()
+c = [capitalize(word) for word in b]
+print(' '.join(c))
