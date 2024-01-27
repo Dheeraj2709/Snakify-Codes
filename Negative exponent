@@ -1,0 +1,5 @@
+import math
+def power():
+    print(pow(a,b))
+a,b = float(input()),float(input())
+power()
